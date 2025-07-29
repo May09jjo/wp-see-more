@@ -1,0 +1,20 @@
+/* WP See more Stylesheet */
+
+.wpsm-show,
+.wpsm-hide {
+    cursor: pointer;
+}
+
+.wpsm-show:hover,
+.wpsm-hide:hover {
+    text-decoration: underline;
+}
+
+.wpsm-show a, .wpsm-show:active, .wpsm-show:visited,
+.wpsm-hide a, .wpsm-hide:active, .wpsm-hide:visited {
+    text-decoration: none;
+}
+
+.wpsm-content-hide {
+  display: none;
+}
