@@ -59,7 +59,7 @@ function wpsm_see_more_shortcode_handler( $attr, $smcontent ) {
     
     // Hidden content
     $output .= '<div class="wpsm-content">';
-    $output .= '<p>' . do_shortcode($smcontent) . '</p>'; // Process any shortcodes within the content
+    $output .= '<p style="text-align: ' . $text_align . ';">' . do_shortcode($smcontent) . '</p>'; // Process any shortcodes within the content
 
     // "Show less" link
     $output .= '<p class="wpsm-hide" style="color: ' . $color .'; font-size: ' . $font_size .'%; text-align: ' . $text_align .';">';
